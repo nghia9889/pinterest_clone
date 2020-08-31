@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC5505C924FCA0C900A34524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5505C824FCA0C900A34524 /* AppDelegate.swift */; };
+		DC5505CB24FCA0C900A34524 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5505CA24FCA0C900A34524 /* SceneDelegate.swift */; };
+		DC5505CD24FCA0C900A34524 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5505CC24FCA0C900A34524 /* ViewController.swift */; };
+		DC5505D024FCA0C900A34524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5505CE24FCA0C900A34524 /* Main.storyboard */; };
+		DC5505D224FCA0CD00A34524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5505D124FCA0CD00A34524 /* Assets.xcassets */; };
+		DC5505D524FCA0CD00A34524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5505D324FCA0CD00A34524 /* LaunchScreen.storyboard */; };
+		DC5505E024FCA0CE00A34524 /* PinterestLayoutCusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5505DF24FCA0CE00A34524 /* PinterestLayoutCusTests.swift */; };
+		DC5505EB24FCA0CE00A34524 /* PinterestLayoutCusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5505EA24FCA0CE00A34524 /* PinterestLayoutCusUITests.swift */; };
+		DC5505F924FCA16100A34524 /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5505F824FCA16100A34524 /* CustomLayout.swift */; };
+		DC5505FC24FCA23500A34524 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5505FA24FCA23500A34524 /* CollectionViewCell.swift */; };
+		DC5505FD24FCA23500A34524 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC5505FB24FCA23500A34524 /* CollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC5505DC24FCA0CE00A34524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC5505BD24FCA0C900A34524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5505C424FCA0C900A34524;
+			remoteInfo = PinterestLayoutCus;
+		};
+		DC5505E724FCA0CE00A34524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC5505BD24FCA0C900A34524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5505C424FCA0C900A34524;
+			remoteInfo = PinterestLayoutCus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC5505C524FCA0C900A34524 /* PinterestLayoutCus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinterestLayoutCus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5505C824FCA0C900A34524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC5505CA24FCA0C900A34524 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC5505CC24FCA0C900A34524 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC5505CF24FCA0C900A34524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC5505D124FCA0CD00A34524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC5505D424FCA0CD00A34524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC5505D624FCA0CD00A34524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5505DB24FCA0CE00A34524 /* PinterestLayoutCusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinterestLayoutCusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5505DF24FCA0CE00A34524 /* PinterestLayoutCusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayoutCusTests.swift; sourceTree = "<group>"; };
+		DC5505E124FCA0CE00A34524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5505E624FCA0CE00A34524 /* PinterestLayoutCusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinterestLayoutCusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5505EA24FCA0CE00A34524 /* PinterestLayoutCusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayoutCusUITests.swift; sourceTree = "<group>"; };
+		DC5505EC24FCA0CE00A34524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5505F824FCA16100A34524 /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
+		DC5505FA24FCA23500A34524 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		DC5505FB24FCA23500A34524 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC5505C224FCA0C900A34524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5505D824FCA0CE00A34524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5505E324FCA0CE00A34524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC5505BC24FCA0C900A34524 = {
+			isa = PBXGroup;
+			children = (
+				DC5505C724FCA0C900A34524 /* PinterestLayoutCus */,
+				DC5505DE24FCA0CE00A34524 /* PinterestLayoutCusTests */,
+				DC5505E924FCA0CE00A34524 /* PinterestLayoutCusUITests */,
+				DC5505C624FCA0C900A34524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC5505C624FCA0C900A34524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC5505C524FCA0C900A34524 /* PinterestLayoutCus.app */,
+				DC5505DB24FCA0CE00A34524 /* PinterestLayoutCusTests.xctest */,
+				DC5505E624FCA0CE00A34524 /* PinterestLayoutCusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC5505C724FCA0C900A34524 /* PinterestLayoutCus */ = {
+			isa = PBXGroup;
+			children = (
+				DC5505C824FCA0C900A34524 /* AppDelegate.swift */,
+				DC5505CA24FCA0C900A34524 /* SceneDelegate.swift */,
+				DC5505CC24FCA0C900A34524 /* ViewController.swift */,
+				DC5505CE24FCA0C900A34524 /* Main.storyboard */,
+				DC5505D124FCA0CD00A34524 /* Assets.xcassets */,
+				DC5505D324FCA0CD00A34524 /* LaunchScreen.storyboard */,
+				DC5505D624FCA0CD00A34524 /* Info.plist */,
+				DC5505F824FCA16100A34524 /* CustomLayout.swift */,
+				DC5505FA24FCA23500A34524 /* CollectionViewCell.swift */,
+				DC5505FB24FCA23500A34524 /* CollectionViewCell.xib */,
+			);
+			path = PinterestLayoutCus;
+			sourceTree = "<group>";
+		};
+		DC5505DE24FCA0CE00A34524 /* PinterestLayoutCusTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC5505DF24FCA0CE00A34524 /* PinterestLayoutCusTests.swift */,
+				DC5505E124FCA0CE00A34524 /* Info.plist */,
+			);
+			path = PinterestLayoutCusTests;
+			sourceTree = "<group>";
+		};
+		DC5505E924FCA0CE00A34524 /* PinterestLayoutCusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC5505EA24FCA0CE00A34524 /* PinterestLayoutCusUITests.swift */,
+				DC5505EC24FCA0CE00A34524 /* Info.plist */,
+			);
+			path = PinterestLayoutCusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC5505C424FCA0C900A34524 /* PinterestLayoutCus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5505EF24FCA0CE00A34524 /* Build configuration list for PBXNativeTarget "PinterestLayoutCus" */;
+			buildPhases = (
+				DC5505C124FCA0C900A34524 /* Sources */,
+				DC5505C224FCA0C900A34524 /* Frameworks */,
+				DC5505C324FCA0C900A34524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinterestLayoutCus;
+			productName = PinterestLayoutCus;
+			productReference = DC5505C524FCA0C900A34524 /* PinterestLayoutCus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC5505DA24FCA0CE00A34524 /* PinterestLayoutCusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5505F224FCA0CE00A34524 /* Build configuration list for PBXNativeTarget "PinterestLayoutCusTests" */;
+			buildPhases = (
+				DC5505D724FCA0CE00A34524 /* Sources */,
+				DC5505D824FCA0CE00A34524 /* Frameworks */,
+				DC5505D924FCA0CE00A34524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC5505DD24FCA0CE00A34524 /* PBXTargetDependency */,
+			);
+			name = PinterestLayoutCusTests;
+			productName = PinterestLayoutCusTests;
+			productReference = DC5505DB24FCA0CE00A34524 /* PinterestLayoutCusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC5505E524FCA0CE00A34524 /* PinterestLayoutCusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5505F524FCA0CE00A34524 /* Build configuration list for PBXNativeTarget "PinterestLayoutCusUITests" */;
+			buildPhases = (
+				DC5505E224FCA0CE00A34524 /* Sources */,
+				DC5505E324FCA0CE00A34524 /* Frameworks */,
+				DC5505E424FCA0CE00A34524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC5505E824FCA0CE00A34524 /* PBXTargetDependency */,
+			);
+			name = PinterestLayoutCusUITests;
+			productName = PinterestLayoutCusUITests;
+			productReference = DC5505E624FCA0CE00A34524 /* PinterestLayoutCusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC5505BD24FCA0C900A34524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Tao Trong Nghia";
+				TargetAttributes = {
+					DC5505C424FCA0C900A34524 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					DC5505DA24FCA0CE00A34524 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DC5505C424FCA0C900A34524;
+					};
+					DC5505E524FCA0CE00A34524 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DC5505C424FCA0C900A34524;
+					};
+				};
+			};
+			buildConfigurationList = DC5505C024FCA0C900A34524 /* Build configuration list for PBXProject "PinterestLayoutCus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC5505BC24FCA0C900A34524;
+			productRefGroup = DC5505C624FCA0C900A34524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC5505C424FCA0C900A34524 /* PinterestLayoutCus */,
+				DC5505DA24FCA0CE00A34524 /* PinterestLayoutCusTests */,
+				DC5505E524FCA0CE00A34524 /* PinterestLayoutCusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC5505C324FCA0C900A34524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5505D524FCA0CD00A34524 /* LaunchScreen.storyboard in Resources */,
+				DC5505D224FCA0CD00A34524 /* Assets.xcassets in Resources */,
+				DC5505FD24FCA23500A34524 /* CollectionViewCell.xib in Resources */,
+				DC5505D024FCA0C900A34524 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5505D924FCA0CE00A34524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5505E424FCA0CE00A34524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC5505C124FCA0C900A34524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5505FC24FCA23500A34524 /* CollectionViewCell.swift in Sources */,
+				DC5505CD24FCA0C900A34524 /* ViewController.swift in Sources */,
+				DC5505C924FCA0C900A34524 /* AppDelegate.swift in Sources */,
+				DC5505F924FCA16100A34524 /* CustomLayout.swift in Sources */,
+				DC5505CB24FCA0C900A34524 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5505D724FCA0CE00A34524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5505E024FCA0CE00A34524 /* PinterestLayoutCusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5505E224FCA0CE00A34524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5505EB24FCA0CE00A34524 /* PinterestLayoutCusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC5505DD24FCA0CE00A34524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC5505C424FCA0C900A34524 /* PinterestLayoutCus */;
+			targetProxy = DC5505DC24FCA0CE00A34524 /* PBXContainerItemProxy */;
+		};
+		DC5505E824FCA0CE00A34524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC5505C424FCA0C900A34524 /* PinterestLayoutCus */;
+			targetProxy = DC5505E724FCA0CE00A34524 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC5505CE24FCA0C900A34524 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC5505CF24FCA0C900A34524 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC5505D324FCA0CD00A34524 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC5505D424FCA0CD00A34524 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC5505ED24FCA0CE00A34524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC5505EE24FCA0CE00A34524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC5505F024FCA0CE00A34524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PinterestLayoutCus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tao-Trong-Nghia.PinterestLayoutCus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC5505F124FCA0CE00A34524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PinterestLayoutCus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tao-Trong-Nghia.PinterestLayoutCus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC5505F324FCA0CE00A34524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PinterestLayoutCusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tao-Trong-Nghia.PinterestLayoutCusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinterestLayoutCus.app/PinterestLayoutCus";
+			};
+			name = Debug;
+		};
+		DC5505F424FCA0CE00A34524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PinterestLayoutCusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tao-Trong-Nghia.PinterestLayoutCusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinterestLayoutCus.app/PinterestLayoutCus";
+			};
+			name = Release;
+		};
+		DC5505F624FCA0CE00A34524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PinterestLayoutCusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tao-Trong-Nghia.PinterestLayoutCusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinterestLayoutCus;
+			};
+			name = Debug;
+		};
+		DC5505F724FCA0CE00A34524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PinterestLayoutCusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tao-Trong-Nghia.PinterestLayoutCusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinterestLayoutCus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC5505C024FCA0C900A34524 /* Build configuration list for PBXProject "PinterestLayoutCus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5505ED24FCA0CE00A34524 /* Debug */,
+				DC5505EE24FCA0CE00A34524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5505EF24FCA0CE00A34524 /* Build configuration list for PBXNativeTarget "PinterestLayoutCus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5505F024FCA0CE00A34524 /* Debug */,
+				DC5505F124FCA0CE00A34524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5505F224FCA0CE00A34524 /* Build configuration list for PBXNativeTarget "PinterestLayoutCusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5505F324FCA0CE00A34524 /* Debug */,
+				DC5505F424FCA0CE00A34524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5505F524FCA0CE00A34524 /* Build configuration list for PBXNativeTarget "PinterestLayoutCusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5505F624FCA0CE00A34524 /* Debug */,
+				DC5505F724FCA0CE00A34524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC5505BD24FCA0C900A34524 /* Project object */;
+}
